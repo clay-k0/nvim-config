@@ -5,5 +5,4 @@
 vim.g.gruvbox_material_background = "soft"
 vim.g.gruvbox_transparent_background = 2
 
-vim.api.nvim_command([[autocmd FileType markdown syntax region match start=/\\$\\$/ end=/\\$\\$/]])
-vim.api.nvim_command([[autocmd FileType markdown syntax match math '\\$[^$].\{-}\$']])
+vim.opt.wrap = true
