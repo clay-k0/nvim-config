@@ -2,8 +2,7 @@ return {
   require("nvim-web-devicons").set_icon({
     toml = {
       icon = "[T]",
-      color = "#FFFFFF",
-      cterm_color = "65",
+      color = "#ebdab1",
       name = "toml",
     },
   }),
