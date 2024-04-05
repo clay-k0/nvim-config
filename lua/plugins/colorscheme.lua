@@ -13,9 +13,15 @@ return {
   },
   { "AlexvZyl/nordic.nvim" },
   {
+    "ricardoraposo/gruvbox-minor.nvim",
+    lazy = false,
+    priority = 1000,
+    opts = {},
+  },
+  {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "gruvbox-material",
+      colorscheme = "gruvbox-minor",
     },
   },
 }
