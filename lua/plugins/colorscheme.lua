@@ -5,12 +5,18 @@ return {
       transparent_background = 1,
     },
   },
-  { "morhetz/gruvbox.nvim" },
+  { "ellisonleao/gruvbox.nvim" },
   { "maralla/gomod.vim" },
   {
     "LazyVim/LazyVim",
     opts = {
       colorscheme = "gruvbox-material",
+      opts = {
+        contrast = "hard",
+        palette_overrides = {
+          gray = "#2ea542",
+        },
+      },
     },
   },
 }
