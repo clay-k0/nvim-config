@@ -8,17 +8,14 @@ return {
   {
     "ellisonleao/gruvbox.nvim",
     opts = {
-      contrast = "hard",
-      palette_overrides = {
-        gray = "#2ea542",
-      },
+      -- contrast = "hard",
     },
   },
   { "maralla/gomod.vim" },
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "gruvbox",
+      colorscheme = "gruvbox-material",
     },
   },
 }
