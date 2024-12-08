@@ -33,7 +33,6 @@ git clone https://github.com/clay-k0/nvim-config ~/.config/nvim
 If anyone other than me uses this, remove the `.git` from the folder by running
 
 ```shell
-
 rm -rf ~/.config/nvim/.git
 ```
 
